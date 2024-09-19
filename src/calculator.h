@@ -1,6 +1,10 @@
-#include "Calculator.h"
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
  
-//Function to add two numbers
-int Calculator::add(int a, int b) {
-    return a + b;
-}
+class Calculator {
+public:
+    int add(int a, int b);  
+};
+ 
+
+#endif // CALCULATOR_H
